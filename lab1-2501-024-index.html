@@ -8,6 +8,11 @@
         h1, h2 {
             text-align: center;
         }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
         .img-box {
             width: 220px;
             height: 220px;
@@ -39,6 +44,18 @@
         图书馆前的石阶上，也总有学子静坐读书，阳光暖暖地裹着身影，书页轻轻翻动，与春日的静谧相融。这般光景，没有华丽的修饰，只有草木生长的自然、学子往来的日常，却藏着最动人的青春模样，安静、温暖，
         又满是向上的力量，让人深深眷恋。   
     </p>
+     <div class="clearfix">
+        <div class="img-box"> 
+            <img src="https://www.ldu.edu.cn/__local/E/BB/66/67BFE88862DA1C46AE544C9A517_E5BD518A_108CA1.jpg" alt="">
+        </div>
+        <div class="img-box">
+            <img src="https://www.ldu.edu.cn/__local/D/29/29/0B89A30F392CB7177D37DBB9C0E_D845E7F2_2AC70.jpg" alt="">
+        </div>
+        <div class="img-box">
+            <img src="https://www.ldu.edu.cn/__local/A/E1/E0/726432721071C759D86B4DE9FAA_8457C644_81E71.jpg" alt="">
+        </div>
+    </div>
+    
     <h3 id="culture">人文景观</h3>
     <ul>
         <li>图书馆</li>
